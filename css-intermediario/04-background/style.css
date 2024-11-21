@@ -1,11 +1,12 @@
 p {
-    color:rgb(175, 19, 5);
+    color: coral;
     font-size: 24px;
     font-weight: bold;
 }
 
 .bg {
     background-image: url('foto-one-piece.png');
+    background-color: lightgreen;
 }
 
 .bg-image {
@@ -16,4 +17,28 @@ p {
 .bg-repeat {
     background-repeat: no-repeat;
     height: 512px;
+}
+
+/* Tem como repetir as imagens em vertical ou horizontal usando repeat-y ou repeat-x */
+
+.bg-size-cover {
+    background-size: cover;
+    height: 512px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.bg-position {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/* Maneira resumida de estilizar um background abaixo: */
+
+.bg-position {
+    background: aqua url(./foto-one-piece.png) no-repeat top right;
 }

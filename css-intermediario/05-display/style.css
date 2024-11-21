@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+.inline li {
+    background-color: aqua; 
+    display: inline;
+}
+
+.block li {
+    background-color: aqua;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.inline-block li {
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.none li {
+    display: none;
+}

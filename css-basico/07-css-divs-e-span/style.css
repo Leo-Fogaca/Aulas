@@ -1,0 +1,8 @@
+.produto {
+    background-color: rgb(68, 240, 68);
+}
+
+.produto span {
+    font-size: 22px;
+    color: purple;
+}

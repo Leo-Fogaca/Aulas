@@ -1,0 +1,26 @@
+/* 1em = 16px
+quando for calcular o "em" ou o tamanho de algo sempre é baseado no elemento pai
+quando for calcular o "rem" é baseado no elemento da raiz, ou seja, o html */
+
+html {
+    background-color: #ccc;
+    font-size: 20px;
+}
+
+body {
+    font-size: 5em;
+    background-color: rgb(213, 19, 213);
+    width: 50%;
+}
+
+.pai {
+    font-size: 1.5em;
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.filha {
+    font-size: 2rem;
+    background-color: blue;
+    width: 50%;
+}

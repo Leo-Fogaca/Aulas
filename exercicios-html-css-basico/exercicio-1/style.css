@@ -1,0 +1,28 @@
+#paragrafo-1 {
+    background-color: #f5f5f5;
+}
+
+#paragrafo-2 {
+    background-color: #f0cce2;
+}
+
+#head-produtos-moda {
+    background-color:  #bb86fc ;
+}
+
+#head-produtos-casa {
+    background-color: #00cbB4;
+}
+
+.produtos {
+    background-color: #424250;
+}
+
+.texto {
+    padding: 20px;
+    margin: 40px 0px;
+}
+
+table {
+    color: #f5f5f5;
+}

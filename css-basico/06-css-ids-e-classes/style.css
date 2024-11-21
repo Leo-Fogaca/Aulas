@@ -1,0 +1,11 @@
+#descricao-play, #descricao-pc {
+    font-size: 20px;
+}
+
+.promocao {
+    background-color: green;
+}
+
+.preco {
+    font-size: 25px;
+}

@@ -1,0 +1,17 @@
+a {
+    padding: 20px;
+    margin: 20px;
+    cursor: crosshair;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:active {
+    color: purple;
+}
+
+a:hover {
+    background-color: red;
+}

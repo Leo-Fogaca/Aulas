@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+.com-border {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.sem-border {
+    background-color: brown;
+}
+
+/* Sem usar box-sizing: border-box é calculado a largura/altura do elemento + respectivo valor do padding e do border
+usando de exemplo os valores acima seria "Largura 100px + padding 20px + border 20px = 140px 
+Com o border-box ele se ajusta para ficar exatamente como a gente definiu 
+no caso do exemplo acima ele se adaptaria pra ficar 100px no total*/

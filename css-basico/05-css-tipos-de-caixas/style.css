@@ -1,0 +1,13 @@
+/* Algumas Tags HTML já vem no padrão display Block como "titulos, parágrafos, divs"
+
+Da mesma forma algumas Tags vem padrão display inline como "Span, a, img"
+
+Os códigos feitos abaixo são invertendo para testar*/
+
+span {
+    display: block;
+}
+
+h1, p {
+    display: inline;
+}

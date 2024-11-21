@@ -1,0 +1,77 @@
+/* CSS Estilos de texto */
+
+.texto-alinhado-esquerda {
+    text-align: left;
+}
+
+.texto-alinhado-direita {
+    text-align: right;
+}
+
+.texto-alinhado-centro {
+    text-align: center;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.letra-maiuscula {
+    text-transform: uppercase;
+}
+
+.letra-minuscula {
+    text-transform: lowercase;
+}
+
+.letra-capitalizada {
+    text-transform: capitalize;
+}
+
+.texto-sublinhado {
+    text-decoration: underline;
+}
+
+.texto-rasurado {
+    text-decoration: line-through;
+}
+
+.texto-sem-decoracao {
+    text-decoration: none;
+}
+
+.linha-com-altura {
+    line-height: 40px;
+}
+
+.texto-com-sombra {
+    text-shadow: 20px 20px 2px;
+}
+
+
+
+/* CSS Geral */
+
+* {
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.fundo-texto-alinhado {
+    background-color: aqua;
+}
+
+.fundo-justificado {
+    background-color: chartreuse;
+}
+
+.fundo-case {
+    background-color: cornflowerblue;
+}
+
+.fundo-decoracao {
+    background-color: darkseagreen;
+}
+
+.fundo-altura {
+    background-color: lightslategrey;
+}

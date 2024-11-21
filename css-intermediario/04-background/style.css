@@ -1,0 +1,19 @@
+p {
+    color:rgb(175, 19, 5);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-image: url('foto-one-piece.png');
+}
+
+.bg-image {
+    height: 512px;
+    width: 512px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 512px;
+}

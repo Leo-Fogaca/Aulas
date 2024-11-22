@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+.cabecalho {
+    padding: 10px 5px;
+    background-color: darkcyan;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto;
+    min-width: 360px;
+    max-width: 1024px;
+}
+
+main .info {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+.image img {
+    width: 100%;
+}

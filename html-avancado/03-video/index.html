@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+
+<body>
+    <h1>Videos</h1>
+
+    <video src="./videos/video.mp4" controls autoplay muted loop width="300" poster="./images/thumb.jpg"></video>
+
+    <!-- Diferente de audio o autoplay funciona com Chrome, porém, precisa do atributo "muted" -->
+    <!-- Quando setar uma width automaticamente ele seta um height equivalente, então o ideal é somente estilizar o width em alguns casos -->
+
+    <h1>Videos responsivos para navegadores diferentes</h1>
+
+    <video src="videos/video.mp4" width="300" controls>
+        <source src="videos/video.mp4" type="video/mp4" />
+        <source src="videos/video.ogg" type="video/ogg" />
+        <source src="videos/video.webm" type="video/webm" />
+        <p>Esse navegador não tem suporte para a tag audio</p>
+    </video>
+
+    <!-- Da mesma forma de audios, caso eu tenha o arquivo somente em .mp4 tenho que converter em algum site. -->
+    <!-- O ideal não é usar a tag video e sim usar a tag iframe e puxar videos do youtube ou vimeo -->
+
+</body>
+
+</html>

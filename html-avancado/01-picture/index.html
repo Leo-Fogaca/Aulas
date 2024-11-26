@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+</head>
+<body>
+    <h1>Picture com mobile first</h1>
+
+    <picture>
+        <source media="(min-width: 765px)" srcset="https://placedog.net/800"/>
+        <source media="(min-width: 475px)" srcset="https://placedog.net/500"/>
+        <img src="https://placedog.net/400" alt="imagem de doguinho">
+    </picture>
+
+    <h1>Picture com desktop first</h1>
+
+    <picture>
+        <source media="(max-width: 475px)" srcset="https://placedog.net/500"/>
+        <source media="(max-width: 765px)" srcset="https://placedog.net/800"/>
+        <img src="https://placedog.net/400" alt="imagem de doguinho">
+    </picture>
+
+</body>
+</html>

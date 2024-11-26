@@ -1,0 +1,26 @@
+p::first-letter {
+    color: blue;
+}
+
+.first-line::first-line {
+    color: blue
+}
+
+li::marker {
+    color: red;
+    font-size: 30px;
+}
+
+h2::before {
+    content: url(https://i.scdn.co/image/ab67616d00001e02cfeae645958e9248abff0710);
+}
+
+/* Tem como usar before ou after estilizando background também pra ser mais específico caso precise */
+
+/* h2::after {
+    content: "";
+    background: url(https://i.scdn.co/image/ab67616d00001e02cfeae645958e9248abff0710)center center no-repeat;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+} */

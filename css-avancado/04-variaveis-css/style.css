@@ -1,0 +1,30 @@
+/* Escopo global: */
+
+:root {
+    --cor-padrao: red;
+    --tamanho-da-fonte: 24px;
+}
+
+h2 {
+    color: var(--cor-padrao, red);
+    font-size: var(--tamanho-da-fonte, 24px);
+}
+
+h3 {
+    color: var(--cor-padrao, red);
+    font-size: var(--tamanho-da-fonte, 24px);
+}
+
+p {
+    color: var(--cor-padrao, red);
+    font-size: var(--tamanho-da-fonte, 24px);
+}
+
+/* Escopo local: */
+
+span {
+    --cor-nova: blue;
+    --fonte-nova: 50px;
+    color: var(--cor-nova);
+    font-size: var(--fonte-nova);
+}

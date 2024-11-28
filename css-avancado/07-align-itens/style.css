@@ -1,0 +1,34 @@
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+/* O align itens vem como padrão stretch caso não tenha tamanho o conteúdo que está estilizando */
+
+.stretch {
+    display: flex;
+    align-items: stretch;
+}
+
+.baseline {
+    display: flex;
+    align-items: baseline;
+}
+
+.container div.baseline-2 {
+    font-size: 40px;
+}
+
+.container div.baseline-3 {
+    font-size: 100px;
+}

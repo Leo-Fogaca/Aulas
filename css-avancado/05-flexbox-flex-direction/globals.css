@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.container {
+    background-color: aqua;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    margin: 10px;
+}

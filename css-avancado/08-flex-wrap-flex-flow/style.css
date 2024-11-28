@@ -1,0 +1,21 @@
+.nowrap {
+    display: flex;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+/* flex-flow é usador para dar os valores de flex-direction e flex-wrap em uma propriedade só*/
+
+.flex-flow {
+    display: flex;
+    flex-flow: column wrap;
+}

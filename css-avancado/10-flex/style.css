@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.container div {
+    margin: 10px;
+    background-color: aqua;
+}
+
+/* A propriedade Flex é uma abreviação das propriedades Grow, Shrink e Basis respectivamente */
+
+.flex {
+    flex: 0 1 150px;
+}
+
+/* Caso nenhum parametro seja especificado nos valores de Shrink e Basis vai ser interpretado como o valor padrão */
+
+.flex-0 {
+    flex: 0;
+}
+
+.flex-1 {
+    flex: 1;
+}

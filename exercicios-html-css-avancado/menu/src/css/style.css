@@ -1,0 +1,46 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.menu li a {
+    padding: 15px;
+}
+
+.sign-in {
+    background: #5BC241;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.menu li a:hover {
+    background: #5BC241;
+    color: #ffffff;
+}

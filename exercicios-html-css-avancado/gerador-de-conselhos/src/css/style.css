@@ -1,0 +1,59 @@
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 100vh;
+    font-size: 15px;
+    font-family:'Manrope', Sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.generator {
+    max-width: 450px ;
+    background-color: var(--card-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.advice-number {
+    color: var(--color-dice-advice);
+    margin-top: 15px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.advice-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.container picture img {
+    width: 100%;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-dice-advice);
+    transform: translateY(85%);
+}
+
+button:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%); ;
+}
+

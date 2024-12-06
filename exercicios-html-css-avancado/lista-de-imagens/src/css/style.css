@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.paint {
+    position: relative;
+    width: 335px;
+    height: 430px;
+}
+
+.info {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: #fff;
+}
+
+.info h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.info p {
+    font-size: 17px;
+}
+

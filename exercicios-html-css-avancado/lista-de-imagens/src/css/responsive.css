@@ -1,0 +1,9 @@
+@media (max-width: 1400px) {
+    main {
+        max-width: 900px;
+        gap: 0;
+    }
+}
+
+
+

@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    display: grid;
+    /* grid-template-areas: 
+    "cabecalho cabecalho cabecalho"
+    "menu main lateral"
+    "rodape rodape rodape"; */
+
+    /* Versão abreviada e modificando altura das linhas e colunas respectivamente */
+
+    grid: "cabecalho cabecalho cabecalho" 50px
+    "menu main lateral" 350px
+    "rodape rodape rodape" 100px
+    / 150px auto 150px ;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: aquamarine;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: gray;
+}
+
+.secao-principal {
+    grid-area: main;
+    background-color: aqua;
+}
+
+.lateral {
+    grid-area: lateral;
+    background-color: orchid;
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: blue;
+}
+

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    padding: 30px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    /* No lugar de auto-fit pode se usar auto-fill a diferença é que com auto-fill ele não vai se encaixa em 100% da largura da tela e sim na largura pré-definida e em caso de sobrar espaço é criado algumas "colunas invisiveis" */
+}
+
+.container p {
+    padding: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}

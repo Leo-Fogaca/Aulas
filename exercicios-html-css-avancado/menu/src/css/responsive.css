@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+   .header {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+   }
+
+   .menu li a {
+    font-size: 40px;
+   }
+
+   .menu .sign-in {
+    font-size: 18px;
+   }
+}

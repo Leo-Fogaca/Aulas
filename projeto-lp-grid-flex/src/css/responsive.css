@@ -42,7 +42,7 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .hero {
         height: 60vh;
     }
@@ -51,4 +51,9 @@
         font-size: 26px;
     }
 
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
 }

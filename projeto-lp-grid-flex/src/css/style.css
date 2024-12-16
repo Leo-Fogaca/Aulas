@@ -145,6 +145,17 @@ body {
 
 .projects {
     grid-area: projects;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.projects img{
+    height: 100%;
+    transition: 0.3s;
+}
+
+.projects a:hover img {
+    opacity: 0.8;
 }
 
 .footer {

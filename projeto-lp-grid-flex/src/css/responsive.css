@@ -40,6 +40,11 @@
         padding: 20px;
         text-align: center;
     }
+
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
 
 @media (max-width: 500px) {
@@ -58,6 +63,10 @@
     }
 
     .services {
+        grid-template-columns: 1fr;
+    }
+
+    .projects {
         grid-template-columns: 1fr;
     }
 }

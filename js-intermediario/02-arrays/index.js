@@ -51,5 +51,22 @@ console.log(frutas);
 frutas.indexOf()
 console.log(frutas.indexOf('laranja'));
 
+// USANDO SLICE E SPLICE
+
+// SLICE é usado para extrair elementos de um array sem modificar o original
+// a formula seria array.slice(elemento Inicial, elemento Final) (OBS: O ELEMENTO FINAL NÃO É INCLUIDO NA EXTRAÇÃO, É SÓ UM PONTO DE FINALIZAÇÃO, SOMENTE O ELEMENTO ANTERIOR SERÁ EXTRAIDO)
+
+let frutasExtraidasSlice = frutas.slice(1, 3)
+console.log(frutasExtraidasSlice)
+
+// SPLICE também é usado para extrair elementos de um array porém ele altera o original e com ele da para subtituir elementos que estão no meio do array
+// a formula seria array.splice(elemento Inicial, numero de elementos que seria excluido ou substituido após o elemento inicial)
+// caso for substituir a formula seria array.splice(elemento Inicial, numero de elementos que seria excluido ou substituido após o elemento inicial, 'novos elementos')
+
+let frutasExtraidasSplice = frutas.splice(1, 2)
+
+let novasFrutas = frutas.splice(1, 2, 'melancia', 'pêra', 'limão')
+console.log(frutasExtraidasSplice)
+console.log(frutas)
 
 

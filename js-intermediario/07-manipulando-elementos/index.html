@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando elementos com JS</title>
+    <style>
+        .fonte-maior {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manipulando elementos com JS</h1>
+
+    <h2>Posts Twitter</h2>
+
+    <article>
+        <p><strong>Leonardo Fogaça</strong> 26 anos</p>
+
+        <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus doloribus, ipsam laudantium dolore tempora, saepe atque rem neque reiciendis, ratione asperiores cupiditate aut obcaecati deserunt qui inventore? Magni, odio possimus.</p>
+
+        <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laudantium eaque nisi illum nam sapiente, perspiciatis tempora doloremque cupiditate tempore neque repudiandae repellat quas veritatis et! Eum voluptas repellendus veritatis?</p>
+    </article>
+
+    <div class="comentarios">
+        <input type="text" name="comentario" placeholder="Digite seu comentário">
+
+        <button onclick="novoComentario()">Postar Comentario</button>
+    </div>
+
+    <div id="novos-comentarios"></div>
+
+    <br><br>
+    <button id="background-color" onclick="trocarCorDeFundoTexto1()">Alterar cor de fundo do parágrafo 1</button>
+
+    <button id="font-size" onclick="trocarFonteTexto2()">Alterar fonte do parágrafo 2</button>
+
+    <br><br>
+
+    <button onclick="marcarRadio('M')">Marcar Masculino</button>
+    <button onclick="marcarRadio('F')">Marcar Feminino</button>
+
+    <br>
+
+    <input type="radio" name="genero" id="masculino"> M
+    <input type="radio" name="genero" id="feminino"> F
+
+    <script src="index.js"></script>
+</body>
+</html>

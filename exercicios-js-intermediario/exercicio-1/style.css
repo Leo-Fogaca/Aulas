@@ -1,0 +1,13 @@
+.quadrado {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.vermelho {
+    background-color: red;
+}

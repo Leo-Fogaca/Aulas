@@ -1,0 +1,107 @@
+.carrossel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mostrar {
+    opacity: 1;
+}
+
+.slide1 {
+    background-image: url(../images/imagem1.png);
+}
+
+.slide2 {
+    background-image: url(../images/imagem2.png);
+}
+
+.slide3 {
+    background-image: url(../images/imagem3.png);
+}
+
+.slide4 {
+    background-image: url(../images/imagem4.png);
+}
+
+.seta-esquerda, .seta-direita {
+    position: absolute;
+    z-index: 1;
+}
+
+.seta-esquerda {
+    left: 4%;
+    transform: rotateY(180deg);
+}
+
+.seta-direita {
+    right: 4%;
+}
+
+.imagem-seta {
+    width: 50px;
+    height: 50px;
+}
+
+.opacidade {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.conteudo {
+    width: 620px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 65px 60px;
+    margin-left: 180px;
+}
+
+.conteudo a {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.rosa {
+    color: #C50000;
+}
+
+.verde {
+    color: #D9DD10;
+}
+
+.laranja {
+    color: #A63A17;
+}
+
+.azul {
+    color: #10ACDD;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 45px;
+}
+

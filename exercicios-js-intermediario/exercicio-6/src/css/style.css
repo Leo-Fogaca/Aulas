@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    width: 655px;
+    height: 350px;
+    border-radius: 21px;
+    background-color: #fff;
+    position: relative;
+}
+
+.imagem {
+    position: relative;
+    left: -100px;
+    
+}
+
+.faq {
+    position: relative;
+    right: 60px;
+    width: 500px;
+}
+
+.faq h2 {
+    margin-bottom: 2px;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}

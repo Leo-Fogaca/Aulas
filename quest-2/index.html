@@ -12,28 +12,33 @@
         rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/variables.css">
 </head>
 
 <body>
     <main>
         <div class="duvidas">
-            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <h2>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h2>
 
             <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
                 24h.</p>
         </div>
 
-        <div>
-            <form action="index.html" method="get">
-                <input type="text" name="nome" id="nome" placeholder="Nome completo *">
-                <input type="email" name="email" id="email" placeholder="Email *">
-                <input type="tel" name="telefone" id="telefone" placeholder="Telefone *">
-                <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem *">
+        <div class="formulario">
+            <div class="dados">
+                <form action="index.html" method="get">
+                    <input type="text" name="nome" id="nome" placeholder="Nome completo *">
+                    <input type="email" name="email" id="email" placeholder="Email *">
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone *">
+                    <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem *">
+                </form>
+            </div>
+            <p class="obrigatorio">*Campos obrigatórios</p>
 
-                <p class="obrigatorio">*Campos obrigatórios</p>
-
+            <div class="botao-enviar">
                 <input type="submit" name="enviar" id="enviar">
-            </form>
+            </div>
+
         </div>
     </main>
 

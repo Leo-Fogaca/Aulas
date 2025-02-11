@@ -20,3 +20,5 @@ export {
     multiplicar,
     dividir
 }
+
+//pode ser usado export default em alguns casos, porém ele só exporta 1 função por arquivo. A estrutura seria export default função

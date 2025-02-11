@@ -24,3 +24,7 @@ let fogaoEstaAceso = false
 
 ferverAgua(chaleiraEstaNoFogao, fogaoEstaAceso)
 console.log('fazendo o café')
+
+//Podemos usar Promise.all quando queremos testar mais de uma promise de uma só vez, porém, se um delas der erro o valor que ira retornar será um erro mesmo que as outras tenham sido realizadas
+
+//Podemos usar Promise.allSettled quando queremos testar mais de uma promise de uma vez, ela ira retornar os resultados e o estado de cada uma

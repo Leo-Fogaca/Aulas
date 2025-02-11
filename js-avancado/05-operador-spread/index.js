@@ -9,11 +9,11 @@ console.log(concatPessoas)
 
 //Clonando objetos
 
-let numeros = {
+let nomes = {
     nome: 'Leonardo',
     sobrenome: 'Fogaça'
 }
 
-let cloneNumeros = { ...numeros}
+let cloneNomes = { ...nomes}
 
-console.log(cloneNumeros)
+console.log(cloneNomes)

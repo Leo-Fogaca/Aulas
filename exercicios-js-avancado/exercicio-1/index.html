@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gerador de conselhos aleatórios">
+    <title>Gerador de conselhos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="generator">
+            <h2 class="advice-number" id="advice-id"></h2>
+            <p class="advice-text" id="advice-desc"></p>
+            <picture>
+                <source media="(max-width: 768px )" srcset="./src/images/pattern-divider-mobile.svg">
+                <img src="./src/images/pattern-divider-desktop.svg" alt="divider icon" class="divider">
+            </picture>
+            <button id="btn-generator">
+                <img src="./src/images/icon-dice.svg" alt="imagem de um dado" class="dice">
+            </button>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="./src/js/index.js"></script>
+</body>
+
+</html>

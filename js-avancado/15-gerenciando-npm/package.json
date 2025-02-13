@@ -1,0 +1,18 @@
+{
+  "name": "usando-npm",
+  "version": "1.0.0",
+  "description": "Usando npm para teste de exercicio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "npm"
+  ],
+  "author": "Leonardo Fogaça",
+  "license": "ISC",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}

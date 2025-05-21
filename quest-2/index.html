@@ -11,8 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/styles.css">
 </head>
 
 <body>
@@ -23,23 +22,23 @@
             <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
                 24h.</p>
         </div>
-
         <div class="formulario">
-            <div class="dados">
-                <form action="index.html" method="get">
-                    <input type="text" name="nome" id="nome" placeholder="Nome completo *">
-                    <input type="email" name="email" id="email" placeholder="Email *">
-                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone *">
-                    <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem *">
-                </form>
-            </div>
-            <p class="obrigatorio">*Campos obrigatórios</p>
+            <form action="index.html" method="get">
+                <input type="text" name="nome" id="nome" placeholder="Nome completo *" class="dados">
+                <span class="none">Campo obrigatório</span>
 
-            <div class="botao-enviar">
-                <input type="submit" name="enviar" id="enviar">
-            </div>
+                <input type="email" name="email" id="email" placeholder="Email *" class="dados">
+                <span class="none">Campo obrigatório</span>
 
-        </div>
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone *" class="dados">
+                <span class="none">Campo obrigatório</span>
+
+                <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem *" class="dados">
+                <span class="none">Campo obrigatório</span>
+
+                <p class="obrigatorio">*Campos obrigatórios</p>
+                <button id="enviar">Enviar</button>
+            </form>
     </main>
 
     <script type="text/javascript" src="src/js/index.js"></script>

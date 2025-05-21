@@ -1,14 +1,10 @@
 import './App.css';
-import Button from './components/button/button';
-import Cards from './components/cards/cards';
+import Deck from './components/deck/deck';
 
 function App() {
   return (
     <>
-      <Button label="Baixar CV"/>
-      <Button />
-
-      <Cards />
+      <Deck />
     </>
   );
 }

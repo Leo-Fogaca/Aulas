@@ -1,5 +1,6 @@
 body {
     background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,22 +32,20 @@ main {
 }
 
 .formulario {
-    width: 340px;
-    height: 400px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 340px;
+    padding: 20px;
 }
 
-.formulario .dados {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.formulario .obrigatorio {
-    font-weight: 400;
+.obrigatorio {
     font-size: 15px;
-    margin-top: 0;
-    margin-left: 10px;
 }
+
 
 #nome, #email, #telefone, #mensagem {
     width: 300px;
@@ -63,10 +62,6 @@ main {
     height: 100px;
 }
 
-.botao-enviar {
-    text-align: center;
-}
-
 #enviar {
     width: 300px;
     height: 40px;
@@ -74,4 +69,13 @@ main {
     border: 1px;
     background-color: #3CCC87;
     color: #fff;
+}
+
+.none {
+    display: none;
+    font-size: 12px;
+    color: #F52E2E;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
 }
